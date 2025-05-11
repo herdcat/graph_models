@@ -1,0 +1,678 @@
+{
+  "label": "Root",
+  "value": "فعل",
+  "children": [
+    {
+      "label": "Tense",
+      "value": "Perfect",
+      "children": [
+        {
+          "label": "Person",
+          "value": "1st",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْتُ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْنَا"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Person",
+          "value": "2nd",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْتَ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْتِ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْتُمَا"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْتُمْ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْتُنَّ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Person",
+          "value": "3rd",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلَ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلَتْ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلَا"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلَتَا"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلُوا"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعَلْنَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tense",
+      "value": "Present",
+      "children": [
+        {
+          "label": "Person",
+          "value": "1st",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "أَفْعَلُ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "نَفْعَلُ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Person",
+          "value": "2nd",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلُ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلِينَ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلَانِ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلُونَ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلْنَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Person",
+          "value": "3rd",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "يَفْعَلُ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلُ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "يَفْعَلَانِ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "تَفْعَلَانِ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "يَفْعَلُونَ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "يَفْعَلْنَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tense",
+      "value": "Imperative",
+      "children": [
+        {
+          "label": "Person",
+          "value": "2nd",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "افْعَلْ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "افْعَلِي"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "افْعَلَا"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "افْعَلُوا"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "افْعَلْنَ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tense",
+      "value": "VerbalNoun",
+      "children": [
+        {
+          "label": "Person",
+          "value": "None",
+          "children": [
+            {
+              "label": "Number",
+              "value": "None",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "None",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَعْلٌ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tense",
+      "value": "ActiveParticiple",
+      "children": [
+        {
+          "label": "Person",
+          "value": "None",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَاعِل"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَاعِلَانِ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَاعِلَتَانِ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَاعِلُونَ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "فَاعِلَات"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tense",
+      "value": "PassiveParticiple",
+      "children": [
+        {
+          "label": "Person",
+          "value": "None",
+          "children": [
+            {
+              "label": "Number",
+              "value": "Singular",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "مَفْعُول"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Dual",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "مَفْعُولَانِ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "مَفْعُولَتَانِ"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Number",
+              "value": "Plural",
+              "children": [
+                {
+                  "label": "Gender",
+                  "value": "Masc",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "مَفْعُولُونَ"
+                    }
+                  ]
+                },
+                {
+                  "label": "Gender",
+                  "value": "Fem",
+                  "children": [
+                    {
+                      "label": "Conjugation",
+                      "value": "مَفْعُولَات"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
