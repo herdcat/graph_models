@@ -61,7 +61,7 @@ class ObjectifyLanguageArabic:
         return self.graph_data[self.get_root()][voice][tense]['default']
     
     def get_masdar_conjugated_alternatives(self, voice, tense):
-        return self.graph_data[self.get_root()][voice][tense]['alternatives']
+        return self.graph_data[self.get_root()][voice][tense]['alternates']
     
     def create_root_cypher(self):
         root = self.get_root()
@@ -103,8 +103,8 @@ class ObjectifyLanguageArabic:
     
     def create_participle_gender_cypher(self, voice, tense, gender):
         root = self.get_root()
-        cypher = f"""MERGE (g:Gender {{name: '{gender}', voice: '{voice}', tense: '{tense}',  root: '{root}'}})
-        MERGE (t:Tense {{name: '{tense}', voice: '{voice}', root: '{root}'}})
+        cypher = f"""MATCH (t:Tense {{name: '{tense}', voice: '{voice}', root: '{root}'}})
+        MERGE (g:Gender {{name: '{gender}', voice: '{voice}', tense: '{tense}',  root: '{root}'}})
         MERGE (t)-[:GENDERED_AS]->(g)
         """
         return cypher
@@ -128,6 +128,7 @@ class ObjectifyLanguageArabic:
     def create_masdar_conjugated_verb_cypher(self, voice, tense, conjugated_verb, conjugated_alternatives):
         root = self.get_root()
         cypher = f"""MERGE (c:ConjugatedVerb {{name: '{conjugated_verb}', voice: '{voice}', tense: '{tense}', root: '{root}'}})
+        SET c.alternatives = {conjugated_alternatives}
         MERGE (t:Tense {{name: '{tense}', voice: '{voice}', root: '{root}'}})
         MERGE (t)-[:CONJUGATED_AS]->(c)
         """
@@ -172,10 +173,20 @@ class ObjectifyLanguageArabic:
                         session.run(self.create_participle_number_cypher(voice, participle, gender, number))
                         participle_verb = self.get_participle_conjugated_verb(voice, participle, gender, number)
                         session.run(self.create_participle_conjugated_verb_cypher(voice, participle, gender, number, participle_verb))
-                for tense in ['masdar']:
-                    session.run(self.create_tense_cypher(voice, tense))
-                    # session.run(self.create_masdar_conjugated_verb_cypher(voice, tense, self.get_masdar_conjugated_verb(voice, tense), self.get_masdar_conjugated_alternatives(voice, tense)))
-                    #     session.run(self.create_person_cypher(voice, participle, person))
+                try:
+                    for tense in ['masdar']:
+                        session.run(self.create_tense_cypher(voice, tense))
+                        try:
+                            conjugated_verb = self.get_masdar_conjugated_verb(voice, tense)
+                            alternate_conjugations = self.get_masdar_conjugated_alternatives(voice, tense)
+                            session.run(self.create_masdar_conjugated_verb_cypher(voice, tense, conjugated_verb, alternate_conjugations))
+                        except KeyError as e:
+                            print(f"KeyError while processing masdar conjugations for voice '{voice}' and tense '{tense}': {e}")
+                        except Exception as e:
+                            print(f"Unexpected error while processing masdar conjugations for voice '{voice}' and tense '{tense}': {e}")
+                except Exception as e:
+                    print(f"Unexpected error while processing masdar tense for voice '{voice}': {e}")
+                        # session.run(self.create_person_cypher(voice, participle, person))
 # create_commands = []
 ola= ObjectifyLanguageArabic("./new_structure.json")
 ola.run_create_all()
